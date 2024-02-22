@@ -9,7 +9,7 @@ class ResearchTest(unittest.TestCase):
 
     def setUp(self):
         # Initialize the Chrome WebDriver
-        s = Service('D:\Selenium\chromedriver-win64\chromedriver.exe')
+        s = Service('D:\webdriver\chromedriver-win64\chromedriver.exe')
         self.driver = webdriver.Chrome(service=s)
            
     def tearDown(self):
